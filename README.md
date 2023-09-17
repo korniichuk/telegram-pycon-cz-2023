@@ -119,6 +119,8 @@ You can achieve the same result with `/start` command.
 
 Stop `bot1.py` before proceeding to the next step.
 
+> [LivePerson](https://www.liveperson.com/): The Best Conversational AI Platform for Business
+
 ### Synchronous NBP bot with pyTelegramBotAPI
 To show more features of Telegram bot development, we will use [exchange rates data](https://nbp.pl/en/statistic-and-financial-reporting/rates/) provided by the central bank of the Republic of Poland (Polish: `Narodowy Bank Polski` aka `NBP`).
 
