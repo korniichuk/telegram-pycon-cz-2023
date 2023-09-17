@@ -1,5 +1,11 @@
 # End-to-end Telegram bot development and deployment
 
+## Disclaimer
+
+![warning.png](img/warning.png "FSB/KGB disclaimer")
+
+**FSB/KGB disclaimer:** Never use Telegram to send important information (e.g., Personal Identifiable Information (PII), identity documents, bank information, payment details)! [[source]](https://www.wired.com/story/the-kremlin-has-entered-the-chat/)
+
 ## Prepare Telegram
 ### Download Mobile Telegram application
 Download [Telegram for Android](https://play.google.com/store/apps/details?id=org.telegram.messenger) or [Telegram for iPhone / iPad](https://apps.apple.com/app/telegram-messenger/id686449807).
@@ -19,7 +25,7 @@ Scan QR code from Mobile Telegram:
 1. Open Mobile Telegram application on your phone.
 2. Go to `Settings` > `Devices` > `Link Desktop Device`.
 
-![telegram_mobile_-_devices.jpg](img/telegram_mobile_-_devices.jpg "Mobile Telegram > Settings > Devices") ![telegram_mobile_-_link_desktop_device.jpg](img/telegram_mobile_-_link_desktop_device.jpg "Mobile Telegram > Settings > Devices > Link Desktop Device" )
+![telegram_mobile_-_devices.jpg](img/telegram_mobile_-_devices.jpg "Mobile Telegram > Settings > Devices") ![telegram_mobile_-_link_desktop_device.jpg](img/telegram_mobile_-_link_desktop_device.jpg "Mobile Telegram > Settings > Devices > Link Desktop Device")
 
 3. Scan QR code to Log In.
 
