@@ -188,6 +188,10 @@ $ python3 bot5.py
 
 **Note:** Parse mode `Markdown` is legacy since Telegram Bot API 4.5, retained for backward compatibility [[source]](https://core.telegram.org/bots/api#formatting-options).
 
+> There is never a bad time to [donate to Ukraine Army](https://savelife.in.ua/en/donate-en/#donate-army-card-once)!
+
+[![savelife.in.ua.png](img/savelife.in.ua.png 'Donate to Ukraine Army')](https://savelife.in.ua/en/donate-en/#donate-army-card-once)
+
 ## Deploy on AWS with SAM
 ### Install SAM
 ```sh
