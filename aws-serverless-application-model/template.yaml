@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Echo bot with python-telegram-bot
+Resources:
+
+  MyLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.10
+      Handler: lambda_function.lambda_handler
+      CodeUri: code/
+      FunctionUrlConfig:
+        AuthType: NONE
+      Architectures:
+        - x86_64
+      Timeout: 3
+      Environment:
+        Variables:
+          TOKEN: <TOKEN>
+
+Outputs:
+  TelegramApi:
+    Description: 'Lambda URL for the MyLambdaFunction'
+    Value:
+      Fn::GetAtt: MyLambdaFunctionUrl.FunctionUrl
