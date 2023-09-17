@@ -201,13 +201,11 @@ $ sam --version
 **Source:** https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html
 
 ### Token
-Insert your token to [lambda_function.py](https://github.com/korniichuk/telegram-pycon-cz-2023/blob/main/aws-serverless-application-model/code/lambda_function.py) file. For example, from:
-
-`TOKEN = "<TOKEN>"  # token from @BotFather for your Telegram bot`
+Insert your token to [template.yaml](https://github.com/korniichuk/telegram-pycon-cz-2023/blob/main/aws-serverless-application-model/template.yaml) file. For example, from:
+`TOKEN: <TOKEN>`
 
 to:
-
-`TOKEN = "5913537281:AAHebnxlMECEhExXsowa9hiHIyzqfT4kU3s"`
+`TOKEN: 5913537281:AAHebnxlMECEhExXsowa9hiHIyzqfT4kU3s`
 
 ### SAM build
 ```sh
