@@ -332,7 +332,7 @@ $ eb --version
 Navigate to `aws-elastic-beanstalk` folder and initialize the directory with the EB CLI:
 
 ```sh
-$ cd aws-elastic-beanstalk
+$ cd ../aws-elastic-beanstalk
 $ eb init
 ```
 
